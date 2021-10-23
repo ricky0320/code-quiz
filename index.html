@@ -9,29 +9,37 @@
 </head>
 <body>
     <header>
-        <h1 class="page-title">Code Quiz</h1>
-        <p>Click the button below to start quiz!</p>
+        <h1>Code Quiz</h1>
     </header>
 
 
-    <section class="quiz-content" id="quiz-content">
-  
-        <div class="welcomeDiv" id="welcomeDiv" style="display: block">
-          <h2>Code Quiz</h2>
-          <p class="">Please click the below button to start the quiz.</p>
-        </div>
-  <!-- Hidden High score element -->
-    <section>
-        <button class="start-btn" id="start-btn" type="button">Start Quiz</button>
-        <h2 class="countdown" id="countdown"></h2>
+    <section class="quiz-heading" id="quiz-heading" style="display: block; font-size: 2.4rem; text-align: center;">
+        <h2>Code Quiz</h2>
+        <p>Please click the below button to start the quiz.</p>
     </section>
+    <!-- start quiz -->
+    <section>
+        <button class="start-btn" id="start-btn" type="button" style="font-size: 2.4rem">Start Quiz</button>
+    </section>
+    <!-- questions -->
+    <section>
+        <div id="question" class="question">
+
+        </div>
+        <button id="a" class="ansButton"></button>
+
+        <button id="b" class="ansButton"></button>
+
+        <button id="c" class="ansButton"></button>
+    </section>
+
+    <!-- hidden high score container -->
     <secion>
         <div class="hs-container" id="hs-stats" style="display: none;">
             <h2 class ="hs-title">High Scores</h2>
             <ul class="hs-list" id="hs-list"></ul>
             <button class="clear-btn" id="clear-btn">Clear High Score</button>
         </div>
-  
     </section>
 
     </main>
@@ -40,6 +48,6 @@
         &copy;2021 by Ricky Leung
     </footer>
 
-    <script src="assets/js/script.js>"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
