@@ -14,8 +14,7 @@
 
 
     <section class="quiz-heading" id="quiz-heading" style="display: block; font-size: 2.4rem; text-align: center;">
-        <h2>Code Quiz</h2>
-        <p>Please click the below button to start the quiz.</p>
+        <h2>Please click the below button to start the quiz.</h2>
     </section>
     <!-- start quiz -->
     <section>
@@ -23,14 +22,22 @@
     </section>
     <!-- questions -->
     <section>
-        <div id="question" class="question">
+        <div id="question" class="question"></div>
 
-        </div>
         <button id="a" class="ansButton"></button>
 
         <button id="b" class="ansButton"></button>
 
         <button id="c" class="ansButton"></button>
+        
+        <div id="showAns" class="showAns"></div>
+    </section>
+
+    <section>
+        <div id="endPage" class="endPage" style="display: none;">
+            <h3>Finish!</h3>
+            <h4>Your score is </h4>
+        </div>
     </section>
 
     <!-- hidden high score container -->
