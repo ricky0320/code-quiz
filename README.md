@@ -1,4 +1,5 @@
 # code-quiz
+Code Quiz is an application that let user take a mini quiz and check their knowledge of coding concepts. There is a time countdown and highscore board. User is able to save their initials for a store their high score or clear the high score.
 
 ## User Story
 AS A coding boot camp student
@@ -17,3 +18,20 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
+
+## Built with
+HTML<br/>
+CSS<br/>
+JavaScript<br/>
+
+## Link
+
+## Credits
+Created by Ricky Leung
+
+## License
+Notice: This license is covered under (https://opensource.org/licenses/MIT)
+
+## Contact 
+GitHub: http://github.com/ricky0320  
+Email: ricxx0320@gmail.com

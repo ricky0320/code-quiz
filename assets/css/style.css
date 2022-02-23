@@ -1,50 +1,83 @@
-* {
-    box-sizing: border-box;
-  }
+:root {
+  --primary: #44e9ff;
+  --secondary: #497980;
+  --tertiary: rgb(192, 246, 253);
+  --grey: #333;
   
-  :root {
-    --primary: #44e9ff;
-    --secondary: #497980;
-    --tertiary: rgb(192, 246, 253);
-    --grey: #333;
-    font-size: 62.5%;
-  }
+}
+
+header {
+  background: var(--secondary);
+  padding: 30px 25px;
+  border-bottom: 5px solid var(--primary);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 400%;
+}
+
+.high-score {
+  background-color: mistyrose;
+  margin-bottom: 5px;
+  font-size: 2.2rem;
+}
+
+.back,
+.clear-high-scores {
+  margin: 5px;
+  font-size: 2.2rem;
+}
+
+.center-text {
+  text-align: center;
+  margin: 5px;
+  font-size: 2.2rem;
+}
+
+.answer {
+  border-top: 1pt solid black;
+}
+
+.content-holder {
+  font-size: 1.3rem;
+  color: rgb(189, 52, 52);
+}
+
+button {
+  background-color: var(--secondary);
+  color: white;
+  font-size: 1.3rem;
   
-  body {
-    background: #ededed;
-    color: var(--grey);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  header {
-    background: var(--secondary);
-    padding: 30px 25px;
-    border-bottom: 5px solid var(--primary);
-    text-align: center;
-    font-size: 2.4rem;
-  }
+}
 
-  footer {
-    width: 100%;
-    background: var(--secondary);
-    color: var(--tertiary);
-    font-size: 2.4rem;
-    padding: 20px;
-    border-top: 5px solid var(--primary);
-  }
+.button-holder {
+  padding-top: 10px;
+}
 
-  .question {
-    font-size: 2.4rem;
-    display: flex;
-  }
+.end-page {
+  margin: 5px;
+  font-size: 1.3rem;
+}
 
-  .ansButton {
-    margin:20px;
-    font-size: 2.4rem;
-    display: flex;
-  }
+.display-high-scores {
+  color: var(--grey);
+  background-color: white;
+  border: none;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  width: 100%;
+  background: var(--secondary);
+  color: var(--tertiary);
+  font-size: 2.4rem;
+  padding: 20px;
+  border-top: 5px solid var(--primary);
+}
