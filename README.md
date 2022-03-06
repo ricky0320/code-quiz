@@ -27,9 +27,14 @@ JavaScript<br/>
 ## Link
 https://ricky0320.github.io/quiz-stop/
 
-## Screenshot
+## Screenshots
 ![Screenshot](./assets/images/quiz1.jpg)<br/>
-![Screenshot](./assets/images/quiz2.jpg)
+![Screenshot](./assets/images/quiz2.jpg)<br/>
+![Screenshot](./assets/images/quiz3.jpg)<br/>
+![Screenshot](./assets/images/quiz4.jpg)<br/>
+![Screenshot](./assets/images/quiz5.jpg)<br/>
+![Screenshot](./assets/images/quiz6.jpg)<br/>
+![Screenshot](./assets/images/quiz7.jpg)
 
 ## Credits
 Created by Ricky Leung
